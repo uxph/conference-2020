@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>{{ .Site.Data.info.site_name }}</title>
+		{{ partial "components/meta" (dict "path" "") }}
+	</head>
+	<body>
+		<!-- Navigation -->
+		{{ partial "components/nav" (dict "path" "") }}
+
+		<!-- WHERE THE MAGIC STARTS -->
+
+		<!-- Footer -->
+		{{ partial "components/footer" (dict "path" "") }}
+		<script type="text/javascript">setActive(0);</script>
+	</body>
+</html>
