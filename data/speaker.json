@@ -1,0 +1,43 @@
+{
+    "speaker_name0": {
+        "name": "#",
+        "job_title": "#",
+        "bio": [
+            "#"
+        ],
+        "image_url": "#",
+        "social_media": [
+            "#"
+        ],
+        "id": "#",
+        "workshop_id": "#"
+    },
+
+    "speaker_name1": {
+        "name": "#",
+        "job_title": "#",
+        "bio": [
+            "#"
+        ],
+        "image_url": "#",
+        "social_media": [
+            "#"
+        ],
+        "id": "#",
+        "workshop_id": "#"
+    },
+    
+    "speaker_name2": {
+        "name": "#",
+        "job_title": "#",
+        "bio": [
+            "#"
+        ],
+        "image_url": "#",
+        "social_media": [
+            "#"
+        ],
+        "id": "#",
+        "workshop_id": "#"
+    }
+}

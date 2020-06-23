@@ -1,0 +1,40 @@
+{
+    "sponsor1":{
+        "name": "#",
+        "description": [
+            "#"
+        ],
+        "image_url": "#",
+        "website_url": "#",
+        "social_media": [
+            "#"
+        ],
+        "tier": "#"
+    },
+
+    "sponsor2":{
+        "name": "#",
+        "description": [
+            "#"
+        ],
+        "image_url": "#",
+        "website_url": "#",
+        "social_media": [
+            "#"
+        ],
+        "tier": "#"
+    },
+    
+    "sponsor3":{
+        "name": "#",
+        "description": [
+            "#"
+        ],
+        "image_url": "#",
+        "website_url": "#",
+        "social_media": [
+            "#"
+        ],
+        "tier": "#"
+    }
+}
