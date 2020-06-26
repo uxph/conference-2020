@@ -1,28 +1,11 @@
 {
-    "program_name0": {
-        "date": "#",
-        "day": "#",
-        "time": "#",
-        "ticket_url": "#",
-        "platform": "#",
-        "id": "#"
-    },
-
-    "program_name1": {
-        "date": "#",
-        "day": "#",
-        "time": "#",
-        "ticket_url": "#",
-        "platform": "#",
-        "id": "#"
-    },
-    
-    "program_name2": {
-        "date": "#",
-        "day": "#",
-        "time": "#",
-        "ticket_url": "#",
-        "platform": "#",
-        "id": "#"
-    }
+	"program_name0": {
+		"date": "#",
+		"day": "#",
+		"time": "#",
+		"ticket_url": "#",
+		"platform": "#",
+		"id": "#",
+		"status": "#"
+	}
 }

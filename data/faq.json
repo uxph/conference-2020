@@ -1,19 +1,7 @@
 {
-    "faq1": {
-        "question": "#",
-        "answer": "#",
-        "category": "#"
-    },
-    
-    "faq2": {
-        "question": "#",
-        "answer": "#",
-        "category": "#"
-    },
-
-    "faq3": {
-        "question": "#",
-        "answer": "#",
-        "category": "#"
-    }
+	"faq1": {
+		"question": "#",
+		"answer": "#",
+		"category": "#"
+	}
 }
