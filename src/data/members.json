@@ -1,0 +1,12 @@
+{
+  "member1": {
+    "name": "#",
+    "bio": ["#"],
+
+    "position": "#",
+    "social_media": ["#"],
+
+    "image_url": "#",
+    "department": "#"
+  }
+}
