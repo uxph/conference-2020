@@ -1,0 +1,11 @@
+{
+  "speaker_id:0": {
+    "name": "#",
+    "job_title": "#",
+    "bio": ["#"],
+    "image_url": "#",
+    "social_media": ["#"],
+    "id": "#",
+    "workshop_id": "#"
+  }
+}
