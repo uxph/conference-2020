@@ -38,6 +38,12 @@ html {
   padding: 0;
 }
 
+div.wrapper {
+  width: 60rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+
 a {
   color: var(--blue);
   text-decoration: none;

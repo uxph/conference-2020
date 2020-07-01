@@ -1,8 +1,7 @@
 import { Link } from "gatsby";
-import PropTypes from "prop-types";
 import React from "react";
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   return (
     <header
       style={{
@@ -25,20 +24,12 @@ const Header = ({ siteTitle }) => {
               textDecoration: `none`,
             }}
           >
-            {siteTitle}
+            UX Philippines Conference
           </Link>
         </h1>
       </div>
     </header>
   );
-};
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
 };
 
 export default Header;
