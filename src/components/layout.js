@@ -12,11 +12,11 @@ import Nav from "./nav";
 import Footer from "./footer";
 import "../assets/sass/main.scss";
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
   return (
     <>
-      <Nav />
-      <main>{children}</main>
+      <Nav isHomePage={props.isHomePage} />
+      <main>{props.children}</main>
       <Footer />
     </>
   );

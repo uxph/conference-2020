@@ -1,28 +1,27 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
-  <Layout>
+  <Layout isHomePage={true}>
     <SEO title="Home" />
-    <header className="padding-y-48">
+    <header className="padding-y-128 bg-dark">
       <div className="wrapper">
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
+        <h1 className="text-center text-white margin-bottom-8">
+          Designing Across Borders
+        </h1>
+        <p className="text-center text-white margin-bottom-24">
+          UXPH Conference 2020
+        </p>
+        <div className="d-flex justify-content-center">
+          <a href="/" className="button margin-right-8">
+            Buy tickets
+          </a>
+          <a href="/program" className="button white outline">
+            See full program
+          </a>
         </div>
-        <img
-          src={"/images/logos/uxph_icon.png"}
-          alt="uxph"
-          className="d-block"
-        />
-        <Link to="/page-2/">Go to page 2</Link> <br />
-        <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
       </div>
     </header>
   </Layout>

@@ -2,9 +2,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="padding-y-48">
       <div className="wrapper">
-        <p>&copy; {new Date().getFullYear()}</p>
+        <div>
+          <img
+            src={"/images/logos/uxph_logo.svg"}
+            className="width-128"
+            alt="UXPH logo"
+          />
+          <p>&copy; Copyright {new Date().getFullYear()}</p>
+          <a href="https://uxph.org/code-of-conduct/" target="blank">
+            View Code of Conduct
+          </a>
+        </div>
       </div>
     </footer>
   );

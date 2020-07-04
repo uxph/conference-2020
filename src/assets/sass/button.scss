@@ -1,0 +1,109 @@
+.button {
+  display: inline-block;
+}
+
+// Standard button
+button,
+.button {
+  cursor: pointer;
+  outline: none;
+  border-radius: var(--value-4);
+  background-color: var(--blue);
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  border-style: none;
+  padding: var(--value-12) var(--value-24);
+  font-family: "Inter", sans-serif;
+  border: thin solid var(--blue);
+  border-width: 1.5px;
+  transition: ease all 0.3s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transform: translate(0px, 0px);
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  color: var(--white);
+  text-decoration: none;
+  transform: translate(0px, 3px);
+}
+
+// Standard outline button
+button.outline,
+.button.outline {
+  background-color: transparent;
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+button.outline:hover,
+.button.outline:hover {
+  color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+
+// Disabled button
+button.disabled,
+.button.disabled {
+  background-color: var(--dark-gray);
+  border-color: var(--dark-gray);
+  color: var(--white);
+}
+
+button.disabled:hover,
+.button.disabled:hover {
+  background-color: var(--dark-gray);
+  border-color: var(--dark-gray);
+  color: var(--white);
+  transform: translate(0px, 0px);
+}
+
+// Disabled outline button
+button.outline.disabled,
+.button.outline.disabled {
+  background-color: transparent;
+  border-color: var(--dark-gray);
+  color: var(--dark-gray);
+}
+
+button.outline.disabled:hover,
+.button.outline.disabled:hover {
+  background-color: transparent;
+  border-color: var(--dark-gray);
+  color: var(--dark-gray);
+  transform: translate(0px, 0px);
+}
+
+// White button
+button.white,
+.button.white {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--blue);
+}
+
+button.white:hover,
+.button.white:hover {
+  background-color: var(--gray);
+  border-color: var(--gray);
+  color: var(--blue);
+}
+
+// White outline button
+button.white.outline,
+.button.white.outline {
+  background-color: transparent;
+  border-color: var(--white);
+  color: var(--white);
+}
+
+button.white.outline:hover,
+.button.white.outline:hover {
+  background-color: transparent;
+  border-color: var(--gray);
+  color: var(--gray);
+}
