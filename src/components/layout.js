@@ -11,6 +11,7 @@ import PropTypes from "prop-types";
 import Nav from "./nav";
 import Footer from "./footer";
 import "../assets/sass/main.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = (props) => {
   return (

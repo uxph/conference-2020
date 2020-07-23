@@ -2,6 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { Button } from "reactstrap";
 
 const IndexPage = () => (
   <Layout isHomePage={true}>
@@ -15,12 +16,12 @@ const IndexPage = () => (
           UXPH Conference 2020
         </p>
         <div className="d-flex justify-content-center">
-          <a href="/" className="button margin-right-8">
-            Buy tickets
-          </a>
-          <a href="/program" className="button white outline">
+          <Button color="primary" className="margin-right-8">
+            Buy Tickets
+          </Button>
+          <Button outline color="primary" href="/program">
             See full program
-          </a>
+          </Button>
         </div>
       </div>
     </header>
