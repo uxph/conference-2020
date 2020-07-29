@@ -2,26 +2,14 @@ import React from "react";
 import "./home.css";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { Button } from "reactstrap";
+import Hero from "../components/index/hero";
+import AboutConference from "../components/index/aboutConference";
 
 const IndexPage = () => (
   <Layout isHomePage={true}>
     <SEO title="Home" />
-      <div className="padding-y-96 padding-x-128 text-center main-header">
-              <div className="main-header--logo margin-bottom-48">
-                  <img src={"/images/logos/UXPH CONF Logo.png"} />
-              </div>
-              <div className="main-header--eventlogo margin-bottom-48">
-                  <img src={"/images/logos/Growth Beyond Borders.png"} />
-
-              </div>
-              <h3 className="text-white margin-bottom-48">OCTOBER 21 - 22, 2020</h3>
-              <div className="btn-container text-center">
-                  <a className="main-btn main-btn--fill" href="#">GET TICKETS</a>
-                  <a className="main-btn main-btn--alt" href="#">SEE FULL PROGRAM</a>
-              </div>
-      </div>
-
+    <Hero />
+    <AboutConference title={"Hello World"} id={4} />
   </Layout>
 );
 
