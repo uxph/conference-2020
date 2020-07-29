@@ -7,7 +7,6 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-
 import Nav from "./nav";
 import Footer from "./footer";
 import "../assets/sass/main.scss";
@@ -17,7 +16,9 @@ const Layout = (props) => {
   return (
     <>
       <Nav isHomePage={props.isHomePage} />
-      <main>{props.children}</main>
+        <main>
+          {props.children}  
+        </main>
       <Footer />
     </>
   );
