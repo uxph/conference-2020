@@ -1,0 +1,110 @@
+{
+  "about_conf": {
+    "title": "UXPH Conference 2020",
+    "body": "This year we invite you to <span>The UXPH 2020 Conference: Growth Beyond Borders</span>, a fully online conference made to bring together hundreds of experience designers, enthusiasts, and problem-solvers of all levels, from all over the map. This 2-day event features keynotes, panels, and workshops from local and international design leaders, as well as social gatherings with the Filipino UX design community."
+  },
+  "figures": [
+    {
+      "header": "10+",
+      "body": "professional speakers from all over the world"
+    },
+    {
+      "header": "200+",
+      "body": "attendees from each and every conference held"
+    },
+    {
+      "header": "100%",
+      "body": "Not some kind of cult (UX be with you!)"
+    },
+    {
+      "header": "100%",
+      "body": "Not some kind of cult (UX be with you!)"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Michael Knowels",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Charlie Kirk",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Ben Shapiro",
+      "avatar": "./images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Donald Trump",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Frank Sinatra",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Ravi Zacharias",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Steven Crowe",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Blaire White",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Mike Pence",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Candace Owens",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Juan De La Cruz, Product Researcher UX Company",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient nibh morbi tempor elit enim diam est."
+    },
+    {
+      "author": "Juan De La Cruz, Product Researcher UX Company",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis quis id feugiat est tincidunt volutpat enim. Velit mauris ullamcorper sollicitudin egestas sed in vitae."
+    },
+    {
+      "author": "Juan De La Cruz, Product Researcher UX Company",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+}

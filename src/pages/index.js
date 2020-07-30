@@ -1,11 +1,24 @@
 import React from "react";
-
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Hero from "../components/index/hero";
+import AboutConference from "../components/index/aboutConference";
+import Figures from "../components/index/figures";
+import Speakers from "../components/index/speakers";
+import Testimonials from "../components/index/testimonials";
 
 const IndexPage = () => (
   <Layout isHomePage={true}>
     <SEO title="Home" />
+    <Hero />
+    <AboutConference />
+    <Figures />
+    <Speakers />
+    <Testimonials />
+  </Layout>
+);
+
+/*
     <header className="padding-y-128 bg-dark">
       <div className="wrapper">
         <h1 className="text-center text-white margin-bottom-8">
@@ -21,7 +34,7 @@ const IndexPage = () => (
         </div>
       </div>
     </header>
-  </Layout>
-);
+
+*/
 
 export default IndexPage;
