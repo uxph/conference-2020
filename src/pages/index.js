@@ -5,6 +5,7 @@ import Hero from "../components/index/hero";
 import AboutConference from "../components/index/aboutConference";
 import Figures from "../components/index/figures";
 import Speakers from "../components/index/speakers";
+import Testimonials from "../components/index/testimonials";
 const IndexPage = () => (
   <Layout isHomePage={true}>
     <SEO title="Home" />
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <AboutConference />
     <Figures />
     <Speakers />
+    <Testimonials />
   </Layout>
 );
 

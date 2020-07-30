@@ -92,5 +92,19 @@
       "company": "Shopify",
       "logo": "/images/placeholders/company.png"
     }
+  ],
+  "testimonials": [
+    {
+      "author": "Juan De La Cruz, Product Researcher UX Company",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient nibh morbi tempor elit enim diam est."
+    },
+    {
+      "author": "Juan De La Cruz, Product Researcher UX Company",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis quis id feugiat est tincidunt volutpat enim. Velit mauris ullamcorper sollicitudin egestas sed in vitae."
+    },
+    {
+      "author": "Juan De La Cruz, Product Researcher UX Company",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
   ]
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 import home from "../../data/home.json";
 
 const speakers = home.speakers;
@@ -26,6 +26,11 @@ const Speakers = () => {
       <Container>
         <h2 className="text-center margin-bottom-64">OUR SPEAKERS</h2>
         <div className="margin-bottom-32 speakers-list">{list_speakers}</div>
+        <div className="btn-container">
+          <a className="text-center main-btn main-btn--fill" href="/">
+            See Full Program
+          </a>
+        </div>
       </Container>
     </section>
   );
