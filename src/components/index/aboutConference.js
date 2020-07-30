@@ -12,7 +12,7 @@ const AboutConference = () => {
           <Col xs={12} md={6} className="margin-bottom-32">
             <div className="video-placeholder"></div>
           </Col>
-          <Col className="paragraph" xs={12} md={6}>
+          <Col className="paragraph margin-bottom-32" xs={12} md={6}>
             <h2 className="heading--two">{home.about_conf["title"]}</h2>
             <p
               className="margin-bottom-32"

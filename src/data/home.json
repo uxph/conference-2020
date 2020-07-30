@@ -20,5 +20,77 @@
       "header": "100%",
       "body": "Not some kind of cult (UX be with you!)"
     }
+  ],
+  "speakers": [
+    {
+      "name": "Michael Knowels",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Charlie Kirk",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Ben Shapiro",
+      "avatar": "./images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Donald Trump",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Frank Sinatra",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Ravi Zacharias",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Steven Crowe",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Blaire White",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Mike Pence",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    },
+    {
+      "name": "Candace Owens",
+      "avatar": "/images/placeholders/avatar.png",
+      "position": "Product Designer",
+      "company": "Shopify",
+      "logo": "/images/placeholders/company.png"
+    }
   ]
 }

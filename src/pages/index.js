@@ -4,12 +4,14 @@ import SEO from "../components/seo";
 import Hero from "../components/index/hero";
 import AboutConference from "../components/index/aboutConference";
 import Figures from "../components/index/figures";
+import Speakers from "../components/index/speakers";
 const IndexPage = () => (
   <Layout isHomePage={true}>
     <SEO title="Home" />
     <Hero />
     <AboutConference />
     <Figures />
+    <Speakers />
   </Layout>
 );
 
