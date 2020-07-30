@@ -1,39 +1,29 @@
-import React, { useState } from "react";
-import { Row, Col } from "reactstrap";
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
 
 //import members from "../../data/members.json";
+import home from "../../data/home.json";
 
-const AboutConference = ({ title, id }) => {
-  const test = id + 10;
-
-  const HTML = `ID: ${test}`;
-
-  const loop = ["MJ", "Tyrone", "Gavin"].map((x) => {
-    return <p>{`${x} speaker name`}</p>;
-  });
-
-  const [value, setValue] = useState(100);
-
+const AboutConference = () => {
   return (
     <section>
-      <div className="wrapper about-conf">
+      <Container>
         <Row>
-          <Col className="video-placeholder" md={6}>
-            {title} {HTML}
-            <p>{value}</p>
-            <button
-              onClick={() => {
-                setValue(value + 1);
-              }}
-            >
-              Click Me!
-            </button>
+          <Col xs={12} md={6} className="margin-bottom-32">
+            <div className="video-placeholder"></div>
           </Col>
-          <Col className="paragraph" md={6}>
-            {loop}
+          <Col className="paragraph" xs={12} md={6}>
+            <h2 className="heading--two">{home.about_conf["title"]}</h2>
+            <p
+              className="margin-bottom-32"
+              dangerouslySetInnerHTML={{ __html: home.about_conf["body"] }}
+            ></p>
+            <a className="main-btn main-btn--fill" href="/">
+              GET TICKETS
+            </a>
           </Col>
         </Row>
-      </div>
+      </Container>
     </section>
   );
 };

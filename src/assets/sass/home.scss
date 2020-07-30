@@ -1,18 +1,25 @@
+section {
+  position: relative;
+  padding: 48px 0px;
+}
+
 .main-header {
   background-color: #182335;
-  height: 100vh;
-  clip-path: polygon(100% 0%, 0% 0%, 0% 72%, 69% 90%, 100% 83%);
+  background: url(/images/section-transition--main.svg), #182335;
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
   position: relative;
-}
 
-.main-header--logo img {
-  width: 128px;
+  &--logo img {
+    width: 128px;
+  }
+  &--eventlogo img {
+    width: 328px;
+  }
 }
-
-.main-header--eventlogo img {
-  width: 328px;
-}
-
 .btn-container {
   display: flex;
   align-items: center;
@@ -27,26 +34,89 @@
   padding: 16px 32px;
   margin: 0.8em;
   font-weight: bold;
-}
 
-.main-btn:hover {
-  text-decoration: none;
-}
-
-.main-btn--fill {
-  color: #fff;
-  background: linear-gradient(144.66deg, #c077fa, -3.68%, #00b6e0 134.62%);
-  border-color: transparent;
-}
-
-.main-btn--alt {
-  color: #c077fa;
-  border-color: #c077fa;
+  &:hover {
+    text-decoration: none;
+  }
+  &--fill {
+    color: #fff;
+    background: linear-gradient(144.66deg, #c077fa, -3.68%, #00b6e0 134.62%);
+    border-color: transparent;
+  }
+  &--alt {
+    color: #c077fa;
+    border-color: #c077fa;
+  }
 }
 
 .video-placeholder {
-  background-color: green;
+  border: solid 10px #182335;
+  border-radius: 5px;
+  height: 360px;
+  background-color: #182335;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 96px;
+    width: 96px;
+    height: 96px;
+    border: solid 8px #fff;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    width: 36px;
+    height: 36px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 2;
+  }
 }
 
 .paragraph {
+  padding: 0px 8px;
+
+  p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px !important;
+    color: #182335;
+    line-height: 30px;
+
+    span {
+      color: #c077fa;
+      font-weight: bold;
+    }
+  }
+  .main-btn {
+    margin: 0px;
+  }
+}
+
+.figures-section {
+  color: #fff;
+  background: url(/images/section-transition.svg),
+    url(/images/section-transition--main.svg), #00b6e0;
+  background-size: 100%;
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Work Sans";
+  }
 }

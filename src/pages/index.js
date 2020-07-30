@@ -1,15 +1,15 @@
 import React from "react";
-import "./home.css";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Hero from "../components/index/hero";
 import AboutConference from "../components/index/aboutConference";
-
+import Figures from "../components/index/figures";
 const IndexPage = () => (
   <Layout isHomePage={true}>
     <SEO title="Home" />
     <Hero />
-    <AboutConference title={"Hello World"} id={4} />
+    <AboutConference />
+    <Figures />
   </Layout>
 );
 

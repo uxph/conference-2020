@@ -1,8 +1,7 @@
 import React from "react";
-
 const Hero = () => {
   return (
-    <div className="padding-y-96 padding-x-128 text-center main-header">
+    <section className="padding-top-128 padding-bottom-256 text-center main-header">
       <div className="main-header--logo margin-bottom-48">
         <img
           src={"/images/logos/UXPH CONF Logo.png"}
@@ -24,7 +23,7 @@ const Hero = () => {
           SEE FULL PROGRAM
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
