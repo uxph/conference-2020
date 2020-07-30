@@ -6,6 +6,7 @@ import AboutConference from "../components/index/aboutConference";
 import Figures from "../components/index/figures";
 import Speakers from "../components/index/speakers";
 import Testimonials from "../components/index/testimonials";
+
 const IndexPage = () => (
   <Layout isHomePage={true}>
     <SEO title="Home" />
@@ -27,12 +28,9 @@ const IndexPage = () => (
           UXPH Conference 2020
         </p>
         <div className="d-flex justify-content-center">
-          <Button color="primary" className="margin-right-8">
-            Buy Tickets
-          </Button>
-          <Button outline color="primary" href="/program">
-            See full program
-          </Button>
+          <a href="/" className="button">
+            Hello
+          </a>
         </div>
       </div>
     </header>
