@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
+import info from "../data/info.json";
 
 const Footer = () => {
   return (
@@ -11,28 +12,28 @@ const Footer = () => {
           alt="UXPH Conference 2020"
         />
         <div className="margin-bottom-24 d-flex justify-content-center">
-          <a href="/">
+          <a href={info.twitter} target="blank">
             <img
               src={"/images/icons/twitter.svg"}
               alt="UXPH Twitter Page"
               className="margin-right-24"
             />
           </a>
-          <a href="/">
+          <a href={info.instagram} target="blank">
             <img
               src={"/images/icons/ig-square.svg"}
               alt="UXPH Instagram Page"
               className="margin-right-24"
             />
           </a>
-          <a href="/">
+          <a href={info.facebook_page} target="blank">
             <img
               src={"/images/icons/facebook-square.svg"}
               alt="UXPH Facebook Page"
               className="margin-right-24"
             />
           </a>
-          <a href="/">
+          <a href={info.linkedin} target="blank">
             <img src={"/images/icons/linkedin.svg"} alt="UXPH LinkedIn Page" />
           </a>
         </div>
