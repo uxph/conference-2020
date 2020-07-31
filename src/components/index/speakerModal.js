@@ -31,11 +31,14 @@ const SpeakerModal = (props) => {
               <h2 className="workshop-title margin-bottom-24">
                 Combating Memory Limitations through Simultaneous Triangulation
               </h2>
-              <p className="font-size-24">by {speakerKey && speakerKey.name}</p>
+              <p className="font-size-24">by {speakerKey.name}</p>
             </Col>
             <Col md={{ size: 3, offset: 1 }} xs={12}>
               <div className="modal-avatar">
-                <img src={speakerKey && speakerKey.image_url} />
+                <img
+                  src={speakerKey && speakerKey.image_url}
+                  alt={speakerKey.name}
+                />
               </div>
             </Col>
           </Row>
