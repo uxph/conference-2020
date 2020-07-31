@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+import Button from "../atoms/button";
 
 //import members from "../../data/members.json";
 import home from "../../data/home.json";
@@ -13,14 +14,18 @@ const AboutConference = () => {
             <div className="video-placeholder"></div>
           </Col>
           <Col className="paragraph margin-bottom-32" xs={12} md={6}>
-            <h2 className="heading--two">{home.about_conf["title"]}</h2>
-            <p
-              className="margin-bottom-32"
-              dangerouslySetInnerHTML={{ __html: home.about_conf["body"] }}
-            ></p>
-            <a className="main-btn main-btn--fill" href="/">
-              GET TICKETS
-            </a>
+            <h2 className="margin-bottom-16">{home.about_conf["title"]}</h2>
+            <p className="margin-bottom-32">
+              This year we invite you to{" "}
+              <span>The UXPH 2020 Conference: Growth Beyond Borders</span>, a
+              fully online conference made to bring together hundreds of
+              experience designers, enthusiasts, and problem-solvers of all
+              levels, from all over the map. This 2-day event features keynotes,
+              panels, and workshops from local and international design leaders,
+              as well as social gatherings with the Filipino UX design
+              community.
+            </p>
+            <Button>Get Tickets</Button>
           </Col>
         </Row>
       </Container>

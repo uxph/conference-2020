@@ -1,3 +1,18 @@
+.button-outer-layer {
+  padding: 0.125rem;
+  border-radius: var(--value-4) !important;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(135deg, #c077fa, #00b6e0);
+  display: inline-block;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.button-outer-layer:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.3);
+}
+
 .button {
   display: inline-block;
 }
@@ -5,105 +20,36 @@
 // Standard button
 button,
 .button {
-  cursor: pointer;
-  outline: none;
-  border-radius: var(--value-4);
-  background-color: var(--blue);
-  color: white;
-  font-size: 14px;
-  font-weight: normal;
-  border-style: none;
-  padding: var(--value-12) var(--value-24);
-  font-family: "Inter", sans-serif;
-  border: thin solid var(--blue);
-  border-width: 1.5px;
-  transition: ease all 0.3s;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-  position: relative;
-  transform: translate(0px, 0px);
+  color: var(--white);
+  background-image: linear-gradient(135deg, #c077fa, #00b6e0);
+  border: none;
+  border-radius: var(--value-4) !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.875rem !important;
+  font-weight: bold;
+  text-transform: uppercase !important;
+  padding: var(--value-16) var(--value-32);
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
 }
 
 button:hover,
 .button:hover {
-  background-color: var(--dark-blue);
-  border-color: var(--dark-blue);
-  color: var(--white);
   text-decoration: none;
-  transform: translate(0px, 3px);
+  color: var(--white);
 }
 
-// Standard outline button
 button.outline,
 .button.outline {
-  background-color: transparent;
-  color: var(--blue);
-  border-color: var(--blue);
-}
-
-button.outline:hover,
-.button.outline:hover {
-  color: var(--dark-blue);
-  border-color: var(--dark-blue);
-}
-
-// Disabled button
-button.disabled,
-.button.disabled {
-  background-color: var(--dark-gray);
-  border-color: var(--dark-gray);
-  color: var(--white);
-}
-
-button.disabled:hover,
-.button.disabled:hover {
-  background-color: var(--dark-gray);
-  border-color: var(--dark-gray);
-  color: var(--white);
-  transform: translate(0px, 0px);
-}
-
-// Disabled outline button
-button.outline.disabled,
-.button.outline.disabled {
-  background-color: transparent;
-  border-color: var(--dark-gray);
-  color: var(--dark-gray);
-}
-
-button.outline.disabled:hover,
-.button.outline.disabled:hover {
-  background-color: transparent;
-  border-color: var(--dark-gray);
-  color: var(--dark-gray);
-  transform: translate(0px, 0px);
-}
-
-// White button
-button.white,
-.button.white {
   background-color: var(--white);
-  border-color: var(--white);
-  color: var(--blue);
+  background-image: none;
+  border-radius: 0.125rem !important;
 }
 
-button.white:hover,
-.button.white:hover {
-  background-color: var(--gray);
-  border-color: var(--gray);
-  color: var(--blue);
-}
-
-// White outline button
-button.white.outline,
-.button.white.outline {
-  background-color: transparent;
-  border-color: var(--white);
-  color: var(--white);
-}
-
-button.white.outline:hover,
-.button.white.outline:hover {
-  background-color: transparent;
-  border-color: var(--gray);
-  color: var(--gray);
+button.outline > span,
+.button.outline > span {
+  background-image: linear-gradient(135deg, #c077fa, #00b6e0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

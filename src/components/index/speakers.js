@@ -1,15 +1,18 @@
 import React from "react";
 import { Container } from "reactstrap";
 import home from "../../data/home.json";
+import Button from "../atoms/button";
 
 const speakers = home.speakers;
 const list_speakers = speakers.map((speaker) => {
   return (
-    <div className="">
+    <div className="margin-bottom-48" key={speaker.name}>
       <div className="speakers-avatar text-center">
         <img src={speaker.avatar} alt="name" />
       </div>
-      <h3 className="text-center margin-bottom-8">{speaker.name}</h3>
+      <h3 className="text-center margin-bottom-4 font-weight-bold text-uppercase">
+        {speaker.name}
+      </h3>
       <p className="text-center margin-bottom-16">
         {speaker.position} at <span>{speaker.company}</span>
       </p>
@@ -27,9 +30,9 @@ const Speakers = () => {
         <h2 className="text-center margin-bottom-64">OUR SPEAKERS</h2>
         <div className="margin-bottom-32 speakers-list">{list_speakers}</div>
         <div className="btn-container">
-          <a className="text-center main-btn main-btn--fill" href="/">
+          <Button href="/program" className="mx-auto">
             See Full Program
-          </a>
+          </Button>
         </div>
       </Container>
     </section>

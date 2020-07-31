@@ -6,6 +6,7 @@ import AboutConference from "../components/index/aboutConference";
 import Figures from "../components/index/figures";
 import Speakers from "../components/index/speakers";
 import Testimonials from "../components/index/testimonials";
+import "../assets/sass/home.scss";
 
 const IndexPage = () => (
   <Layout isHomePage={true}>
