@@ -19,23 +19,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-/*
-    <header className="padding-y-128 bg-dark">
-      <div className="wrapper">
-        <h1 className="text-center text-white margin-bottom-8">
-          Designing Across Borders
-        </h1>
-        <p className="text-center text-white margin-bottom-24">
-          UXPH Conference 2020
-        </p>
-        <div className="d-flex justify-content-center">
-          <a href="/" className="button">
-            Hello
-          </a>
-        </div>
-      </div>
-    </header>
-
-*/
-
 export default IndexPage;
