@@ -1,6 +1,6 @@
 import React from "react";
 import members from "../../data/members.json";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 
 const ListTeam = ({ teamMembers }) => {
   const list = teamMembers.map((member, index) => {
