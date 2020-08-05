@@ -6,13 +6,13 @@ const Hero = () => {
     <section className="padding-top-128 padding-bottom-256 text-center main-header">
       <div className="main-header--logo margin-bottom-48">
         <img
-          src={"/images/logos/uxph_conf_logo.png"}
+          src={"/images/logos/uxph_conf_logo.svg"}
           alt="UXPH Conference 2020"
         />
       </div>
       <div className="main-header--eventlogo margin-bottom-24">
         <img
-          src={"/images/logos/growth_beyond_borders.png"}
+          src={"./images/logos/growth_beyond_borders.svg"}
           alt="Growth Beyond Borders"
         />
       </div>

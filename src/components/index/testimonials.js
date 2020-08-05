@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import home from "../../data/home.json";
+import testimonies from "../../data/testimonies.json";
 
-const testimonials = home.testimonials.map((test, index) => {
+const testimonials = testimonies.map((test, index) => {
   return (
     <Col md={4} xs={12} className="margin-bottom-32" key={index}>
       <p className="testimonial text-center margin-bottom-16">{test.body}</p>
