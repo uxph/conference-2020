@@ -4,9 +4,9 @@ import { Container } from "reactstrap";
 
 const ListTeam = ({ teamMembers }) => {
   const list = teamMembers.map((member, index) => {
-    const social_list = member.social_media.map((social) => {
-      return social;
-    });
+    // const social_list = member.social_media.map((social) => {
+    //   return social;
+    // });
     return (
       <div
         md={3}
