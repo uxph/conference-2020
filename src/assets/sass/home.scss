@@ -26,12 +26,11 @@ section {
   padding: 0px 8px;
 
   p {
-    font-size: 16px !important;
-    color: #182335;
+    color: $primary-dark;
     line-height: 30px;
 
     span {
-      color: #c077fa;
+      color: $primary-blue;
       font-weight: bold;
     }
   }
@@ -42,14 +41,11 @@ section {
   @include section-blue;
 
   h1 {
-    font-family: "Montserrat", sans-serif;
     font-size: 56px;
-    font-weight: bold;
   }
   p {
     font-size: 18px;
     line-height: 30px;
-    font-family: "Work Sans";
   }
 }
 .speakers {
@@ -70,7 +66,7 @@ section {
     border-radius: 100%;
     width: 166px;
     height: 166px;
-    background-color: #182335;
+    background-color: $primary-dark;
     margin: 0 auto 8px;
   }
   &-list {
@@ -169,6 +165,7 @@ section {
   text-transform: unset;
 }
 
+// TO BE REMOVED
 .video-placeholder {
   border: solid 10px #182335;
   border-radius: 5px;
