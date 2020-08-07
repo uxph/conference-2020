@@ -1,6 +1,12 @@
+//VARIABLES
+$primary-blue: #c077fa;
+$secondary-blue: #00b6e0;
+$primary-dark: #182335;
+$primary-gray: #cacaca;
+$primary-white: #fff;
+
 @mixin hero {
-  background-color: #182335;
-  background: url(/images/section-transition--main.svg), #182335;
+  background: url(/images/section-transition--main.svg), $primary-dark;
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -10,9 +16,9 @@
 }
 
 @mixin section-blue {
-  color: #fff;
+  color: $primary-white;
   background: url(/images/section-transition.svg),
-    url(/images/section-transition--main.svg), #00b6e0;
+    url(/images/section-transition--main.svg), $secondary-blue;
   background-size: 100%;
   background-position: top, bottom;
   background-repeat: no-repeat;
@@ -23,7 +29,7 @@
   font-family: "Work Sans";
   font-size: 16px;
   background: url(/images/section-transition.svg),
-    url(/images/section-transition--main.svg), #fff;
+    url(/images/section-transition--main.svg), $primary-white;
   background-size: 100%;
   background-position: top, bottom;
   background-repeat: no-repeat;

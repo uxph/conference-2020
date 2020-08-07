@@ -28,7 +28,7 @@ const Speakers = () => {
             {speaker.name}
           </button>
         </h3>
-        <p className="text-center margin-bottom-16">
+        <p className="text-center margin-bottom-16 font-size-16">
           {speaker.position} at <span>{speaker.company}</span>
         </p>
         <div className="text-center padding-bottom-32">
@@ -41,7 +41,9 @@ const Speakers = () => {
   return (
     <section className="speakers-section padding-y-64">
       <Container>
-        <h2 className="text-center margin-bottom-64">OUR SPEAKERS</h2>
+        <h2 className="text-center margin-bottom-64 font-size-24">
+          OUR SPEAKERS
+        </h2>
         <div className="margin-bottom-32 speakers-list">{list_speakers}</div>
         <div className="btn-container">
           <Button className="mx-auto" href="/program">
