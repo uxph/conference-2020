@@ -40,6 +40,9 @@ const Sponsors = () => {
         className={"silver-sponsor padding-y-256"}
         contentClassName={"sponsor"}
         heading={"Silver Sponsors"}
+        style={{
+          backgroundColor: "#F6F6F6",
+        }}
       />
 
       <ListSponsors

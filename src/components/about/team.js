@@ -22,7 +22,7 @@ const ListTeam = ({ teamMembers }) => {
     );
   });
 
-  return <div class="team-row margin-x-128">{list}</div>;
+  return <div className="team-row margin-x-128">{list}</div>;
 };
 
 const Team = () => {

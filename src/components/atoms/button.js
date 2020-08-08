@@ -3,9 +3,10 @@ import React from "react";
 const Button = ({
   children,
   href = "/",
-  variant,
-  className,
+  variant = "",
+  className = "",
   bgColor = "white",
+  style = "",
 }) => {
   return (
     <div className={`button-outer-layer ${className}`}>
@@ -14,6 +15,7 @@ const Button = ({
         href={href}
         style={{
           backgroundColor: bgColor,
+          ...style,
         }}
       >
         <span>{children}</span>

@@ -4,7 +4,7 @@ import info from "../data/info.json";
 
 const Footer = () => {
   return (
-    <footer className="padding-y-96">
+    <footer className="padding-y-96 padding-bottom-48">
       <Container>
         <img
           src={"/images/logos/uxph_conf_logo.png"}

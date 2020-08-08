@@ -1,34 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container } from "reactstrap";
 import speakers from "../../data/speakers.json";
-import SpeakerModal from "./speakerModal";
+// import SpeakerModal from "./speakerModal";
 import Button from "../atoms/button";
 
 const Speakers = () => {
-  const [modal, setModal] = useState(false);
-
-  const toggle = () => setModal(!modal);
-
-  const [speakerVal, setSpeakerVal] = useState(-1);
+  // const [modal, setModal] = useState(false);
+  // const toggle = () => setModal(!modal);
+  // const [speakerVal, setSpeakerVal] = useState(-1);
 
   const list_speakers = speakers.map((speaker) => {
     return (
-      <div className="" key={speaker.id}>
-        <div className="speakers-avatar text-center">
-          <img src={speaker.image_url} alt="name" />
+      <div
+        key={speaker.id}
+        style={{
+          cursor: "pointer",
+        }}
+        className="margin-y-16 speakers-thumbnail"
+      >
+        <div className="speakers-avatar text-center margin-bottom-24">
+          <img src={speaker.image_url} alt={speaker.name} />
         </div>
-        <h3 className="text-center margin-bottom-8">
-          <button
-            className="btn-to-txt"
-            onClick={() => {
-              setSpeakerVal(speaker.id);
-              setModal(!modal);
-            }}
-          >
-            {speaker.name}
-          </button>
+        <h3
+          className="text-center"
+          style={{
+            fontSize: "0.83rem",
+            margin: "0",
+          }}
+        >
+          {speaker.name}
         </h3>
-        <p className="text-center margin-bottom-16 font-size-16">
+        <p className="text-center font-size-16">
           {speaker.position} at <span>{speaker.company}</span>
         </p>
         <div className="text-center padding-bottom-32">
@@ -50,7 +52,7 @@ const Speakers = () => {
             See Full Program
           </Button>
         </div>
-        <SpeakerModal val={speakerVal} modal={modal} toggle={toggle} />
+        {/* <SpeakerModal val={speakerVal} modal={modal} toggle={toggle} /> */}
       </Container>
     </section>
   );
