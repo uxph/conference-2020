@@ -4,7 +4,7 @@
   @include hero;
 
   p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba($primary-white, 0.8);
     line-height: 33px;
     font-size: 20px;
     font-weight: lighter;
@@ -29,7 +29,7 @@
 
 .about-info {
   @include section-blue;
-  color: #fff;
+  color: $primary-white;
 }
 
 .img-resizer {
@@ -64,6 +64,6 @@
 }
 .team-section {
   h3 {
-    color: #cacaca;
+    color: $primary-gray;
   }
 }

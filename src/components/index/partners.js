@@ -14,7 +14,7 @@ const Partners = () => {
   return (
     <section className="padding-y-64 partners-section">
       <Container>
-        <h2 className="text-center margin-bottom-64">
+        <h2 className="text-center margin-bottom-64 font-size-24">
           OUR PARTNERS AND SPONSORS
         </h2>
         <div className="partners-list">{items}</div>
