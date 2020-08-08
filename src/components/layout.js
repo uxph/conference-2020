@@ -7,16 +7,18 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-
 import Nav from "./nav";
 import Footer from "./footer";
 import "../assets/sass/main.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
   return (
     <>
-      <Nav />
-      <main>{children}</main>
+      <Nav isHomePage={props.isHomePage} />
+        <main>
+          {props.children}  
+        </main>
       <Footer />
     </>
   );
