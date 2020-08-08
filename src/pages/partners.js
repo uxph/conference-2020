@@ -6,12 +6,21 @@ import Sponsors from "../components/partners/sponsors";
 import "../assets/sass/partners.scss";
 import "../assets/sass/main.scss";
 
-const Partners = () => (
-  <Layout>
-    <SEO title="Partners" />
-    <Hero />
-    <Sponsors />
-  </Layout>
-);
+import ComingSoon from "../components/comingSoon";
+import { coming_soon } from "../data/info.json";
+
+const Partners = () => {
+  if (coming_soon) {
+    return <ComingSoon />;
+  } else {
+    return (
+      <Layout>
+        <SEO title="Partners" />
+        <Hero />
+        <Sponsors />
+      </Layout>
+    );
+  }
+};
 
 export default Partners;

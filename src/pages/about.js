@@ -8,14 +8,23 @@ import Team from "../components/about/team";
 import "../assets/sass/about.scss";
 import "../assets/sass/main.scss";
 
-const About = () => (
-  <Layout>
-    <SEO title="About" />
-    <Hero />
-    <Intro />
-    <Info />
-    <Team />
-  </Layout>
-);
+import ComingSoon from "../components/comingSoon";
+import { coming_soon } from "../data/info.json";
+
+const About = () => {
+  if (coming_soon) {
+    return <ComingSoon />;
+  } else {
+    return (
+      <Layout>
+        <SEO title="About" />
+        <Hero />
+        <Intro />
+        <Info />
+        <Team />
+      </Layout>
+    );
+  }
+};
 
 export default About;
