@@ -53,6 +53,7 @@ const ComingSoon = () => {
             variant="outline"
             bgColor="#182335"
             className="margin-bottom-16"
+            href="/call-for-speakers"
           >
             Call for Speakers
           </Button>
