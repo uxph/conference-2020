@@ -2,9 +2,9 @@ import React from "react";
 import { Container } from "reactstrap";
 import sponsors from "../../data/sponsors.json";
 
-const items = sponsors.map((sponsor) => {
+const items = sponsors.map((sponsor, index) => {
   return (
-    <div className="partners-list__item" key={sponsor.id}>
+    <div className="partners-list__item" key={index}>
       <img src={sponsor["image_url"]} alt={sponsor.name} />
     </div>
   );

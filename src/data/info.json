@@ -18,5 +18,7 @@
 
   "uxph_website_url": "https://uxph.org/",
   "merch_store_url": "#",
-  "video_teaser_url": "#"
+  "video_teaser_url": "#",
+
+  "coming_soon": true
 }
