@@ -4,6 +4,8 @@ import Form from "../components/callForSpeakers/form";
 import Footer from "../components/footer";
 import SEO from "../components/seo";
 
+import "../assets/sass/main.scss";
+
 const callForSpeakersPage = () => {
   return (
     <>
