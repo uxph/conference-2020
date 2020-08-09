@@ -7,11 +7,12 @@ const ComingSoon = () => {
     <header
       style={{
         backgroundColor: "var(--black)",
-        overflow: "hidden",
+        boxSizing: "border-box",
       }}
     >
       {/* Video overlay */}
       <div
+        id="coming-soon-overlay"
         style={{
           position: "fixed",
           backgroundColor: "var(--black)",
@@ -27,6 +28,7 @@ const ComingSoon = () => {
         width="150%"
         height="100%"
         className="position-fixed"
+        id="coming-soon-video"
         src="https://www.youtube.com/embed/EWZ5HRa2qf8?controls=0&loop=1&autoplay=1&mute=1&start=11&end=209&showinfo=0&playlist=EWZ5HRa2qf8"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         title="UXPH teaser video"
@@ -37,37 +39,62 @@ const ComingSoon = () => {
         }}
       ></iframe>
       <div
-        className="position-fixed"
+        id="coming-soon-content"
+        className="margin-y-128 mx-auto"
         style={{
+          position: "relative",
           zIndex: "1300",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
+          width: "700px",
+          boxSizing: "border-box",
+          // top: "50%",
+          // left: "50%",
+          // transform: "translate(-50%, -50%)",
         }}
       >
         <img
           src={"/images/logos/uxph_conf_logo.svg"}
           alt="UXPH Conference 2020"
-          className="width-96 d-block mx-auto margin-bottom-32"
+          className="width-128 d-block mx-auto margin-bottom-32"
         />
-        <h1 className="text-center text-white margin-bottom-32 font-size-48">
-          Coming Soon!
+        <h1 className="text-center text-white margin-bottom-48 font-size-48">
+          Coming in October 2020
         </h1>
+        <p className="text-center text-white margin-bottom-32 font-size-24 font-weight-bold">
+          UXPH CONF 2020: Designers as Navigators of Change
+        </p>
+        <p className="text-white text-center margin-bottom-48">
+          <strong>The UXPH CONF </strong>, now in its 5th year, will be an
+          online event filled with talks and workshops for Experience Designers,
+          enthusiasts, and creative problem-solvers.
+        </p>
+        <p className="text-white text-center margin-bottom-48">
+          This year, we look back at how designers adapted and thrived when the
+          way we work and enjoy our social freedoms was transformed. Looking to
+          the future, what can we learn from their experience? How can we help
+          our teams navigate the constant change in the world as we design
+          products and services that have lasting impact?
+        </p>
+        <p className="text-white text-center margin-bottom-48">
+          Join us in learning from leaders of the local and international UX
+          community, as we cover research methodologies, design management and
+          methods, and many other topics to further your design career.
+        </p>
         <div className="text-center">
           <Button
             variant="outline"
             bgColor="#182335"
             className="margin-left-8 margin-right-8 margin-bottom-16"
             href="/call-for-speakers"
+            target="blank"
           >
-            Call for Speakers
+            Speaker inquiries
           </Button>
           <Button
             variant="outline"
             bgColor="#182335"
             className="margin-left-8 margin-right-8 margin-bottom-16"
           >
-            Sponsorship package
+            Sponsor Inquiries
           </Button>
         </div>
         <div className="d-flex justify-content-center margin-top-64">

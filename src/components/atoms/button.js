@@ -7,6 +7,7 @@ const Button = ({
   className = "",
   bgColor = "white",
   style = "",
+  target = "self",
 }) => {
   return (
     <div className={`button-outer-layer ${className}`}>
@@ -17,6 +18,7 @@ const Button = ({
           backgroundColor: bgColor,
           ...style,
         }}
+        target={target}
       >
         <span>{children}</span>
       </a>
