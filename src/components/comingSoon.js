@@ -62,19 +62,19 @@ const ComingSoon = () => {
         <p className="text-center text-white margin-bottom-32 font-size-24 font-weight-bold">
           UXPH CONF 2020: Designers as Navigators of Change
         </p>
-        <p className="text-white text-center margin-bottom-48">
-          <strong>The UXPH CONF </strong>, now in its 5th year, will be an
-          online event filled with talks and workshops for Experience Designers,
+        <p className="text-white text-center margin-bottom-32">
+          <strong>The UXPH CONF</strong>, now in its 5th year, will be an online
+          event filled with talks and workshops for Experience Designers,
           enthusiasts, and creative problem-solvers.
         </p>
-        <p className="text-white text-center margin-bottom-48">
+        <p className="text-white text-center margin-bottom-32">
           This year, we look back at how designers adapted and thrived when the
           way we work and enjoy our social freedoms was transformed. Looking to
           the future, what can we learn from their experience? How can we help
           our teams navigate the constant change in the world as we design
           products and services that have lasting impact?
         </p>
-        <p className="text-white text-center margin-bottom-48">
+        <p className="text-white text-center margin-bottom-32">
           Join us in learning from leaders of the local and international UX
           community, as we cover research methodologies, design management and
           methods, and many other topics to further your design career.
