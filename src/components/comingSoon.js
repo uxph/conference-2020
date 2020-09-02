@@ -31,7 +31,7 @@ const ComingSoon = () => {
       </div>
       <div
         id="coming-soon-content"
-        className="margin-y-128 mx-auto"
+        className="margin-y-64 mx-auto"
         style={{
           position: "relative",
           zIndex: "1300",
